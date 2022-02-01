@@ -279,4 +279,40 @@ body {
   padding: 10px;
 }
 
+.header-content h1{
+  font-size: 3rem;
+}
+.header-content{
+  padding-right: 40vw;
+}
+.header-desc{
+  line-height: 14px;
+  font-size: 1.2rem;
+}
+.header-content h2{
+  font-size: 3rem;
+}
+.program-section{
+  gap: 2.5vh;
+    padding: 8vh 10vw 18vh 10vw;
+    color: #d3d3d3;
+    
+}
+.program-data{
+  display: flex;
+  flex-direction: row;
+}
+.program{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+}
+.program .program-icon {
+  padding-left: 0;
+  width: auto;
+}
+.program .program-title {
+  width: auto;
+}
 }
