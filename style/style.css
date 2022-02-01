@@ -187,3 +187,42 @@ body {
   height: 7vh;
   background-color: white;
 }
+.partners-section{
+  margin-top:2vh;
+  background-color: #272a31;
+    color: #fff;
+    padding: 2vh 1vw 8vh 1vw;
+}
+.partners-header{
+  text-align: center;
+}
+.partners-images{
+  display: flex;
+  flex-direction: column;
+  gap: 8vh;
+}
+.partners-row-1,.partners-row-2{
+  display: flex;
+    justify-content: space-around;
+    padding-top: 7vh;
+}
+.partners-img{
+  width: 70px;
+  height: 30px;
+  color: silver;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 8vh 4vw;
+  font-size: 1em;
+  color: #272a31;
+  line-height: 140%;
+}
+.footer-logo{
+  width: 180px;
+  height: 90px;
+}
+.desktop-detail{
+  display: none;
+}
