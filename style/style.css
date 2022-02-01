@@ -62,3 +62,23 @@ body {
     font-size: 1.3rem;
     margin-top: 15%;
 }
+.header-content h1 {
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #ec5242;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header-content h2{
+    color: black;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 1.2rem;
+}
+
+.header-content .header-desc {
+    border: 4px solid white;
+    padding: 1rem 2rem;
+    line-height: 1.5em;
+    background: #d3d3d3;
+}
