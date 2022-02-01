@@ -90,7 +90,7 @@ body {
 .program-section{
     background: black;
     gap: 2.5vh;
-    padding: 20px;
+    
     color: #d3d3d3;
 }
 
@@ -225,4 +225,32 @@ body {
 }
 .desktop-detail{
   display: none;
+}
+.first-header{
+  display: none;
+}
+@media screen and (min-width: 768px) {
+.baricon{
+  display: none;
+}
+.first-header{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #272a31;
+  padding-right: 5%;
+}
+.first-header-list {
+  color:#fff;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;  
+  gap: 2vw;
+}
+.first-header-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+
 }
