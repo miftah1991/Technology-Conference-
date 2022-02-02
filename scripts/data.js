@@ -1,9 +1,9 @@
-const speakersData = [
+const data = [
   {
     name: 'Miftah Amin',
     bio: 'Software Developer',
-    paragraph:'Miftah amin is senior business developement specialist and started his career since 2013',
-    img:'speaker1.png'
+    paragraph: 'Miftah amin is senior business developement specialist and started his career since 2013',
+    img: 'speaker1.png',
   },
   {
     name: 'Ibrahim Amin',
@@ -37,8 +37,7 @@ const speakersData = [
     img: 'speaker6.png',
   },
 ];
-function cardGenerator(img,name,bio,paragraph)
-{
+function cardGenerator(img, name, bio, paragraph) {
   const cardsContainer = document.createElement('div');
   const container = document.createElement('div');
   const cardsImage = document.createElement('div');
@@ -46,8 +45,8 @@ function cardGenerator(img,name,bio,paragraph)
   const photo = document.createElement('img');
   const cardsInformation = document.createElement('div');
   const cardsBody = document.createElement('div');
-  const fullName = document.createElement('h3');
-  const title = document.createElement('h5');
+  const fullName = document.createElement('p');
+  const title = document.createElement('p');
   const description = document.createElement('small');
 
   cardsContainer.appendChild(container);
@@ -65,6 +64,8 @@ function cardGenerator(img,name,bio,paragraph)
   cardsImage.className = 'cards-images';
   chess.className = 'image-inside-cards1';
   photo.className = 'image-inside-cards2';
+  chess.alt = 'chess';
+  photo.alt = 'speakers';
   cardsInformation.className = 'cards-info';
   cardsBody.className = 'cards-body';
   fullName.className = 'cards-name';
@@ -72,14 +73,13 @@ function cardGenerator(img,name,bio,paragraph)
   description.className = 'cards-small';
 
   document.querySelector('.speakers-data').appendChild(cardsContainer);
-  photo.src = '/images/speakers/'+img;
-  chess.src ='/images/chess-bg.png';
+  photo.src = `/images/speakers/${img}`;
+  chess.src = '/images/chess-bg.png';
   fullName.innerText = name;
   title.innerText = paragraph;
   description.innerText = bio;
 }
 
-for (let i = 0; i < speakersData.length; i++) {
-  cardGenerator(speakersData[i].img,speakersData[i].name,speakersData[i].paragraph,speakersData[i].bio)
-  
+for (let i = 0; i < data.length; i += 1) {
+  cardGenerator(data[i].img, data[i].name, data[i].paragraph, data[i].bio);
 }
