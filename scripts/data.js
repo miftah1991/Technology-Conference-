@@ -1,8 +1,8 @@
 const speakersData = [
   {
     name: 'Miftah Amin',
-    bio: 'Software Developer and Student at Microverse',
-    paragraph:'Assistant developer since 2019 and now student in Microverse',
+    bio: 'Software Developer',
+    paragraph:'Miftah amin is senior business developement specialist and started his career since 2013',
     img:'speaker1.png'
   },
   {

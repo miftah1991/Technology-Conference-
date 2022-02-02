@@ -52,7 +52,7 @@ body {
   padding-top: 20px;
   margin-left: 30px;
 }
-.header-content {
+.header-content,.header-content-about {
     background-image: url(/images/background.png);
     padding: 5vh 4vw 9vh 4vw;
     background-repeat: no-repeat;
@@ -60,13 +60,13 @@ body {
     background-position-x: center;
     background-position-y: center;
 }
-.header-content span {
+.header-content span,.header-content-about span{
     color: #ec5242;
     font-weight: 400;
     font-size: 1.3rem;
     margin-top: 15%;
 }
-.header-content h1 {
+.header-content h1,.header-content-about h1 {
     font-family: 'COCOGOOSE', sans-serif;
     color: #ec5242;
     display: block;
@@ -74,17 +74,21 @@ body {
     font-weight: bold;
 }
 
-.header-content h2{
+.header-content h2,.header-content h2{
     color: black;
     font-family: 'COCOGOOSE', sans-serif;
     font-size: 1.2rem;
 }
 
-.header-content .header-desc {
+.header-content .header-desc, .header-content-about  .header-desc {
     border: 4px solid white;
     padding: 1rem 2rem;
     line-height: 1.5em;
     background: #d3d3d3;
+    text-align: center;
+}
+.about-section-img img{
+  width: 50vw;
 }
 
 .program-section{
@@ -99,7 +103,7 @@ body {
 }
 
 .hrbar{
-    border: 2px solid #ec5242;
+    border: 1px solid #ec5242;
     width: 25%;
 }
 .program-data{
@@ -232,9 +236,77 @@ body {
 .second-header{
   display: none;
 }
+.header-title-about{
+  text-align: center;
+}
+.about-section-heading{
+  text-align: center;
+}
+.about-section{
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+.about-section .about-section-desc p{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.about-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-section-img{
+  text-align: center;
+}
+.past-conference{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.past-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+.past-container img{
+  width: 250px;
+  height: 150px;
+}
+.header-content-about p{
+  text-align: center;
+  color:  black;
+}
+.header-content-about .email{
+  font-weight: bold;
+}
+figure {
+  position: relative;
+}
+figure img{
+  opacity: 0.8;
+}
+figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+  opacity: 1;
+  
+}
 @media screen and (min-width: 768px) {
 .baricon{
   display: none;
+}
+.past-container{
+  flex-direction: row;
 }
 .first-header{
   display: flex;
@@ -279,17 +351,23 @@ body {
   padding: 10px;
 }
 
-.header-content h1{
+.header-content h1,.header-content-about h1{
   font-size: 3rem;
 }
 .header-content{
   padding-right: 40vw;
 }
+.header-content-about{
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+
 .header-desc{
   line-height: 14px;
   font-size: 1.2rem;
 }
-.header-content h2{
+.header-content h2,.header-content-about h2{
   font-size: 3rem;
 }
 .program-section{
@@ -315,4 +393,68 @@ body {
 .program .program-title {
   width: auto;
 }
+.program-join{
+  visibility: hidden;
+}
+.program-all{
+  display: block;
+  text-align: center;
+  padding-top: 5%;
+  text-decoration: none;
+}
+.program-all a{
+  text-decoration: none;
+  color: white;
+}
+.program-footer{
+  display: none;
+}
+.cards-container{
+  flex-grow: 1;
+    flex-basis: 50%;
+}
+.speakers-data{
+  display: flex;
+  flex-wrap: wrap;
+}
+.speaker-section{
+  padding-bottom: 20vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.image-inside-cards1{
+  width: 5vw;
+}
+.image-inside-cards2{
+  margin-top: -62px;
+}
+.cards-images{
+  flex: 1;
+}
+.cards-info{
+  padding-right: 6vw;
+}
+.speaker-more{
+  display: none;
+}
+.partners-images{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 45px;
+  
+}
+.partners-row-1,.partners-row-2{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 45px;
+}
+.footer{
+  justify-content:center;
+}
+.footer-img{
+  width: 30%;
+}
+
 }
