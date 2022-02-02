@@ -57,7 +57,7 @@ body {
 
 .header-content,
 .header-content-about {
-  background-image: url(/images/background.png);
+  background-image: url(images/background.png);
   padding: 5vh 4vw 9vh 4vw;
   background-repeat: no-repeat;
   background-size: contain;
