@@ -73,8 +73,8 @@ function cardGenerator(img, name, bio, paragraph) {
   description.className = 'cards-small';
 
   document.querySelector('.speakers-data').appendChild(cardsContainer);
-  photo.src = `/images/speakers/${img}`;
-  chess.src = '/images/chess-bg.png';
+  photo.src = `images/speakers/${img}`;
+  chess.src = 'images/chess-bg.png';
   fullName.innerText = name;
   title.innerText = paragraph;
   description.innerText = bio;
