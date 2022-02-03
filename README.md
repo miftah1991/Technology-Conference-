@@ -43,3 +43,7 @@ Give a ⭐️ if you like this project!
 **📝 License**
 ----------------------------------------------------------------------
 This project is MIT licensed.
+## Acknowledgments
+
+- [Cindy Shin](https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/html_capstone.md#:~:text=Cindy%20Shin%20in%20Behance) in Behance for her [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- [microverse](http://www.microverse.org) for the config templates and original design
