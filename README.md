@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Event Page
+## Kabul International TECHNOLOGY CONFERENCE 2022.
+>**This is a website for internation technology conferences in Kabul Afghanistan**
 
-> Kabul International TECHNOLOGY CONFERENCE 2022.
 
 ![screenshot](https://github.com/miftah1991/Technology-Conference-/blob/conference-pages/images/Demo.png)
 
